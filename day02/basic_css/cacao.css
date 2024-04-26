@@ -1,36 +1,29 @@
 .normal {
   background-color: black;
   color: white;
-  text-align: center;
-  width: 700px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 10px;
-  font-weight: 800;
 }
 
 .kakao {
   background-color: #f7e111;
   color: black;
-  width: 700px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 10px;
-  font-weight: 800;
 }
 
 .apple {
   background-color: white;
   color: black;
+
+  /* 두께 스타일 색깔 */
+  border: 1px solid#dbdbdb;
+}
+
+/* 중복되는것, 완전 똑같은 것은 하나로 처리하고 상속해주면 됨 */
+.button2 {
   width: 700px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
   font-weight: 800;
-  /* 두께 스타일 색깔 */
-  border: 1px solid#dbdbdb;
 }
 
 .register {
