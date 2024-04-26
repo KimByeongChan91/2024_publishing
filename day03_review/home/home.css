@@ -1,0 +1,8 @@
+.box {
+  color: white;
+  background-color: black;
+  width: 300px;
+  padding: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
