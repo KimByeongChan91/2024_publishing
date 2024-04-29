@@ -1,0 +1,19 @@
+.card_container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-image: url(../travel/jeju.jpg);
+  background-size: cover;
+  filter: brightness(1.08);
+  border-radius: 12px;
+  padding: 10px 15px 10px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 280px;
+  height: 380px;
+}

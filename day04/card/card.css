@@ -1,0 +1,82 @@
+.card_container {
+  display: flex;
+  gap: 20px;
+}
+
+.card1 {
+  background-image: url("../travel/busan.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  padding: 20px;
+  color: white;
+}
+
+.card2 {
+  background-image: url("../travel/incheon.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  padding: 20px;
+  color: white;
+}
+
+.card3 {
+  background-image: url("../travel/jeju.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.card4 {
+  background-image: url("../travel/kyungju.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.category {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.middleText {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.lastText {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
