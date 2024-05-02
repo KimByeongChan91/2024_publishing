@@ -1,0 +1,68 @@
+body {
+  height: 300vh;
+  width: 300vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 2;
+  font-size: 25px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+}
+
+.menu {
+  justify-content: center;
+  gap: 20px;
+}
+
+.language {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: skyblue;
+  /* border: 1px solid blue; */
+
+  position: absolute;
+}
+
+.middleText {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  top: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleText > span {
+  font-size: 130px;
+  font-weight: 800;
+}
+
+.button_container {
+  display: flex;
+  position: relative;
+  left: 50%;
+  top: 1000px;
+}
+
+.button_container {
+  font-size: 50px;
+}

@@ -1,0 +1,65 @@
+.header {
+  width: 100vw;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.navigation {
+  border: 1px solid red;
+  width: 60%;
+  /* margin으로 가운데 */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox {
+  height: 100%;
+  width: 80px;
+}
+
+.logoBox > img {
+  width: 100%;
+  height: 100%;
+}
+
+.siteBox {
+  display: flex;
+  gap: 50px;
+}
+
+.pages {
+  display: flex;
+  gap: 12px;
+  transform: all 0.8s;
+}
+
+.language {
+  display: flex;
+  gap: 20px;
+}
+
+.pages > span {
+  padding: 12px 10px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.pages > span:hover {
+  background-color: #e5e5e5;
+  border-radius: 8px;
+}
+
+.language > span {
+  padding: 12px 10px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.language > span:hover {
+  background-color: #e5e5e5;
+  border-radius: 8px;
+}

@@ -1,0 +1,51 @@
+body {
+  height: 300vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  /* width: 1000px;
+  height: 600px; */
+  gap: 10px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  /* position: absolute; */
+  font-size: 30px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  display: flex;
+  background-color: blue;
+
+  z-index: 2;
+  /* position: relative;
+  left: 100px;
+  top: 100px; */
+}
+
+.red {
+  position: fixed;
+  top: 0px;
+  background-color: red;
+}
+
+.title {
+  /* 자기 부모 기준으로 움직임 */
+  /* top:0, left:0, bottom:0, right:0 */
+
+  /* absolute: 단 모든 부모가 static 이면 웹 브라우저 기준 */
+  /* absolute: 모든 부모가 static 아니라면 자기 부모 기준 */
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
