@@ -1,0 +1,149 @@
+main {
+}
+
+.first {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-purple-300);
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left > .text1 {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.left > .text2 {
+  font-weight: 800;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 30px;
+  /* background-color: white; */
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+.buttonBox > span {
+  font-size: 20px;
+  text-align: center;
+}
+
+.right {
+  /* border: 1px solid black; */
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.imageBox {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.imageBox2 {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  left: -100px;
+  bottom: -5px;
+}
+
+/*  */
+.second {
+  width: 100vw;
+  height: 40vh;
+  background-color: white;
+}
+
+.content2 {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content2 > .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+  background-color: #e2d7c4;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.boxcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  gap: 10px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.boxcontainer > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imageBox4 {
+  width: 100px;
+  height: 30px;
+}
+
+.imageBox4 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  color: var(--primary-purple-300);
+}
