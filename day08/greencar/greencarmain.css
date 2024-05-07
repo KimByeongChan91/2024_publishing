@@ -1,0 +1,14 @@
+header {
+  width: 98vw;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  background-color: grey;
+}
