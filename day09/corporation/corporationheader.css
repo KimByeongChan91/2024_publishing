@@ -13,6 +13,7 @@ nav {
   justify-content: space-between;
   max-width: 1200px;
   height: 60px;
+  align-items: center;
 }
 
 .nav__logo {
