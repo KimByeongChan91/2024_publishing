@@ -1,0 +1,12 @@
+/* mobile */
+@media screen and (max-width: 768px) {
+  header {
+    max-width: 360px;
+  }
+  main {
+    display: block;
+  }
+}
+
+/* max-width, 배치도, 폰트만 바꿔주면 됨 */
+/* https://joshua-legend.github.io/corporation/# */

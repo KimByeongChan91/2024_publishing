@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  z-index: 1;
+  background-color: #ddd;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 60px;
+}
+
+.nav__logo {
+  font-size: 30px;
+  color: #444444;
+  font-weight: 800;
+}
+
+.nav__navigation {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  color: #555555;
+  font-weight: 800;
+}
+
+.nav__navigation > li {
+  font-size: 20px;
+}
