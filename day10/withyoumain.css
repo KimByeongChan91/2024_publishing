@@ -1,0 +1,544 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  max-width: 100rem;
+  width: 100%;
+
+  /* border: 1px solid black; */
+}
+
+.first__container_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.first__container_contents__text {
+  color: #97c125;
+  font-weight: 600;
+}
+
+.first__container_contents__title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 60px;
+  gap: 10px;
+}
+
+.first__container_contents__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.first__container_contents__button {
+  width: 185px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* second */
+
+.second {
+  width: 100vw;
+  height: 180vh;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 300px;
+}
+
+.second > i {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  font-size: 35px;
+}
+
+.second__container {
+  padding-top: 100px;
+  width: 100%;
+  max-width: 100rem;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+  /* align-items: center; */
+  gap: 30px;
+  /* border: 1px solid black; */
+}
+
+.second__contents {
+  display: flex;
+}
+
+.second__contents__title {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.second__contents__title__main {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.second__contents__title__sub {
+}
+
+.second__contents__img {
+  width: 80px;
+  height: 120px;
+}
+
+.second__contents__img > img {
+  width: 100%;
+  height: 100%;
+  margin-top: 300px;
+}
+
+.second__contents__cardlists {
+  display: flex;
+  gap: 50px;
+  padding-left: 200px;
+}
+
+.second__contents__firstCardList {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.card1 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card1__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card1__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1name {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card1button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card2 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card2__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card2__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card2button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card3 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card3__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card3__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card3button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.second__contents__secondCardList {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  /* border: 1px solid blue; */
+  padding-top: 250px;
+}
+
+.card4 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card4__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card4__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card4name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card4button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card5 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card5__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card5__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card5name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card5button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card6 {
+  width: 430px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.35); */
+}
+
+.card6__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.card6__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card6name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.card6button {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/*               third               */
+
+.third {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.third__img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.third__contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100rem;
+  gap: 20px;
+  /* align-items: center;
+  justify-content: center;
+  margin: 0 auto; */
+  margin: 250px 0 0 250px;
+}
+
+.third__title1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.third__title2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  gap: 10px;
+}
+
+.third__button {
+  width: 120px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #fff;
+  padding: 1.25rem 3.6875rem;
+  border-radius: 100px 100px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+/*                       fourth           */
+
+.fourth {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 150px;
+}
+
+.fourth__container {
+  width: 100%;
+
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.fourth__container__header {
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fourth__container__cards {
+  display: flex;
+  /* flex-direction: column; */
+  max-width: 100rem;
+  /* border: 1px solid blue; */
+  gap: 100px;
+}
+
+.card1container {
+  position: relative;
+}
+
+.fourth__container__card1 {
+  display: flex;
+  gap: 30px;
+  border: 1px solid blue;
+  position: absolute;
+}
+
+.card2container {
+  position: relative;
+}
+
+.fourth__container__card2 {
+  display: flex;
+  gap: 30px;
+  border: 1px solid blue;
+  position: absolute;
+}
+
+.card3container {
+  position: relative;
+}
+
+.fourth__container__card3 {
+  display: flex;
+  gap: 30px;
+  border: 1px solid blue;
+  position: absolute;
+}
+
+/* https://withyoulove.co.kr/ */
