@@ -33,3 +33,16 @@ nav {
   gap: 20px;
   color: black;
 }
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .nav__logo {
+    margin: 0 auto;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+}
+
+/* max-width, 배치도, 폰트만 바꿔주면 됨 */

@@ -1,0 +1,115 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  max-width: 100rem;
+  width: 100%;
+
+  /* border: 1px solid black; */
+}
+
+.first__container_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.first__container_contents__text {
+  color: #97c125;
+  font-weight: 600;
+}
+
+.first__container_contents__title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 60px;
+  gap: 10px;
+}
+
+.first__container_contents__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.first__container_contents__button {
+  width: 185px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .first {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+  }
+  .first__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .first__container_contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first__container_contents__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  .first__container_contents__subtitle {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .first__container_contents__button {
+    font-size: 20px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .first__container__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .first__container__img > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* max-width, 배치도, 폰트만 바꿔주면 됨 */
