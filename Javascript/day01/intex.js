@@ -1,4 +1,4 @@
-// console.log("자바스크립트! 시작!");
+console.log("자바스크립트! 시작!");
 // console.log("자바스크립트 공부 다짐: 잘하고 싶다ㅠ");
 // console.log("오늘 점심 메뉴: 토스트");
 
@@ -124,9 +124,26 @@ const f = document.createElement("div");
 f.style.width = "100px";
 f.style.height = "100px";
 f.style.border = "1px solid black";
-f.style.backgroundColor = "none";
 
-a.addEventListener("click", () => {});
+a.addEventListener("click", () => {
+  f.style.backgroundColor = "red";
+});
+
+b.addEventListener("click", () => {
+  f.style.backgroundColor = "orange";
+});
+
+c.addEventListener("click", () => {
+  f.style.backgroundColor = "Yellow";
+});
+
+d.addEventListener("click", () => {
+  f.style.backgroundColor = "green";
+});
+
+e.addEventListener("click", () => {
+  f.style.backgroundColor = "blue";
+});
 
 document.body.appendChild(a);
 document.body.appendChild(b);
