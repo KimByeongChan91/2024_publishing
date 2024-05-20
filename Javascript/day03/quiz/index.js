@@ -48,8 +48,12 @@ indexPlus.innerText = `+`;
 
 indexPlus.addEventListener('click', () => {
   const length = parseInt(box.style.width) + 1;
-  box.style.width = `${length}px`;
-  box.style.height = `${length}px`;
+  const isLength111 = length === 111;
+  box.style.width = isLength111 ? `110px` : `${length}px`;
+  box.style.height = isLength111 ? `110px` : `${length}px`;
+
+  // box.style.width = `${length}px`;
+  // box.style.height = `${length}px`;
 });
 
 indexMin.addEventListener('click', () => {
